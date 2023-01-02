@@ -6,7 +6,7 @@ function swap() {
     console.log(a, "a")
     console.log(b, "b")
 }
-swap()
+swap() 
 
 // function swap(){
 //     let a = 5;

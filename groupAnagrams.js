@@ -8,7 +8,7 @@ const anagramFind = (str) => {
 
   for (let items of str) {
     let key = items.split("").sort().join("");
-
+console.log(key)
     if (map[key]) {
       map[key].push(items);
     } else {
@@ -16,6 +16,8 @@ const anagramFind = (str) => {
     }
   }
   result = Object.values(map);
+  console.log(map);
+  console.log(map['abt'])
   return result;
   // console.log(map);
 };
